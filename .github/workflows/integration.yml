@@ -44,7 +44,7 @@ jobs:
     run-tests:
         runs-on: ubuntu-latest
         container:
-            image: ghcr.io/epitech/coding-style-checker:latest
+            image: epitechcontent/epitest-docker:latest
         needs: [compile, coding-style]
         steps:
 
